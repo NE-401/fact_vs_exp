@@ -22,6 +22,7 @@ elif len(sys.argv) == 3:
 elif len(sys.argv) > 3:
     print('too much argument')
     print('usage: ./fact_vs_exp.py [limit [base]]')
+    exit()
 
 print('exp base = {0}'.format(base))
 print('iteration limit = {0}'.format(limit))
